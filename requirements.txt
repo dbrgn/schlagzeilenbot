@@ -1,0 +1,4 @@
+Fabric==1.4.2
+tweepy==1.9
+requests==0.13.1
+env==0.1.0
