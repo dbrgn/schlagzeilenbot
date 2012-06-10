@@ -28,7 +28,7 @@ def tweet():
     if len(headline) > available_chars:
         limit = available_chars - 3
         headline = headline[:limit] + '...'
-    tweet = template % headline
+    tweet = unicode(template % headline).encode('utf-8')
     print tweet
     status = api.update_status(tweet)
     print 'https://twitter.com/schlagzeilenbot/status/%s' % status.id_str
