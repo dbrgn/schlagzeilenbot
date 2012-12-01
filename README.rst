@@ -24,4 +24,4 @@ Setup (Heroku)
 Authors
 =======
 
-* Danilo Bargen (Github: `@gwrtheyrn <https://github.com/gwrtheyrn/>`_, Twitter: `@dbrgn <https://twitter.com/dbrgn>`_)
+* Danilo Bargen (Github: `@dbrgn <https://github.com/dbrgn/>`_, Twitter: `@dbrgn <https://twitter.com/dbrgn>`_)
