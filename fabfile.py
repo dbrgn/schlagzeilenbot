@@ -20,7 +20,7 @@ def tweet():
     # Get a headline
     headers = {'accept': 'application/json'}
     r = requests.get('http://www.schlagzeilengenerator.ch/', headers=headers)
-    headline = r.json['headline']
+    headline = r.json()['headline']
 
     # Prepare and send tweet
     template = u'%s http://www.schlagzeilengenerator.ch/'
