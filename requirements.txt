@@ -2,3 +2,4 @@ Fabric==1.7.0
 tweepy==2.1
 requests==1.2.3
 env==0.1.0
+pycrypto==2.6.1
