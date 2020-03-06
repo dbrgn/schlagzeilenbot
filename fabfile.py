@@ -19,11 +19,11 @@ def tweet():
 
     # Get a headline
     headers = {'accept': 'application/json'}
-    r = requests.get('http://www.schlagzeilengenerator.ch/', headers=headers)
+    r = requests.get('https://www.schlagzeilengenerator.ch/', headers=headers)
     headline = r.json()['headline']
 
     # Prepare and send tweet
-    template = u'%s http://www.schlagzeilengenerator.ch/'
+    template = u'%s https://www.schlagzeilengenerator.ch/'
     available_chars = 140 - len(template % '')
     if len(headline) > available_chars:
         limit = available_chars - 3
