@@ -12,7 +12,7 @@ Setup (Heroku)
 
 ::
 
-    $ heroku apps:create --stack cedar [appname]
+    $ heroku apps:create [appname]
     $ heroku addons:add scheduler:standard
     $ heroku config:add TWITTER_ACCESS_TOKEN=[value]
     $ heroku config:add TWITTER_ACCESS_TOKEN_SECRET=[value]
